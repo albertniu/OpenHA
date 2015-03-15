@@ -1,0 +1,13 @@
+
+IP=10.234.203.154
+MAC=C8:1F:66:EE:79:55
+MASK=255.255.255.0
+GATEWAY=10.234.203.254
+ETH=em1
+C=$(ifconfig|grep $IP|wc -l)
+
+if [ $C -eq 0 ] ; then
+    /sbin/ifconfig $ETH:1 $IP netmask $MASK up
+    /sbin/arp -i $ETH -s $IP $MAC
+    /sbin/arping -c 1 -I $ETH -s $IP $GATEWAY
+fi

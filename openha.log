@@ -6,3 +6,7 @@
 2015-03-15 22:51:03,436 INFO[main](HttpProcessor.java25)-Http Processor is listening on 6060
 2015-03-15 22:51:04,504DEBUG[Thread-0](HAProcessor.java24)-HAProcessor Shutdown [...]
 2015-03-15 22:51:04,505DEBUG[Thread-0](HAProcessor.java26)-HAProcessor Shutdown [ OK ]
+2015-03-15 23:17:42,830 INFO[main](HAProcessor.java519)-Version=2014-09-29 15:03 Build V1.8.0, Albert Newton
+2015-03-15 23:17:43,868 INFO[main](HttpProcessor.java25)-Http Processor is listening on 6060
+2015-03-15 23:17:44,225DEBUG[Thread-0](HAProcessor.java24)-HAProcessor Shutdown [...]
+2015-03-15 23:17:44,226DEBUG[Thread-0](HAProcessor.java26)-HAProcessor Shutdown [ OK ]
